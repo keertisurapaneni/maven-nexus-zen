@@ -63,6 +63,6 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testDivide" classname="com.learnmaven.mavendemo.AppTest" time="0.001"/>
-  <testcase name="testAdd" classname="com.learnmaven.mavendemo.AppTest" time="0"/>
+  <testcase name="testAdd" classname="com.learnmaven.mavendemo.AppTest" time="0.01"/>
   <testcase name="testSubtract" classname="com.learnmaven.mavendemo.AppTest" time="0"/>
 </testsuite>
