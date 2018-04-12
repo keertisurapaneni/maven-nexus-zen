@@ -38,7 +38,7 @@ public class AppTest
     
     public void testSubtract()
     {
-        assertEquals(1, new Calculator().subtract(20, 10));
+        assertEquals(10, new Calculator().subtract(20, 10));
     }
     
     public void testDivide()
