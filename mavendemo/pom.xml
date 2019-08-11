@@ -81,7 +81,6 @@
       <url>http://localhost:8081/repository/maven-group/</url>
     </repository>
   </repositories>
-</project>
 	
 	  <distributionManagement>
     <snapshotRepository>
