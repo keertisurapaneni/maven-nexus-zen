@@ -3,13 +3,7 @@ pipeline{
     stages{
         stage('GitCheckOut'){
             steps{
-                checkout([$class: 'GitSCM', 
-                branches: [[name: '*/master']], 
-                doGenerateSubmoduleConfigurations: false, 
-                extensions: [], 
-                submoduleCfg: [], 
-                userRemoteConfigs: 
-                [[url: 'https://github.com/keertisurapaneni/maven-nexus-zen.git']]])
+                checkout scm
             }
         }
         stage('Build'){
