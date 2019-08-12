@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('GitCheckOut'){
+        stage('GitCheckOut trigger'){
             steps{
                 checkout([$class: 'GitSCM', 
                 branches: [[name: '*/master']], 
