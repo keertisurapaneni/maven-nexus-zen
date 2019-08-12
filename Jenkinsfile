@@ -23,7 +23,7 @@ pipeline{
                 }
             }
         }
-                stage('Deploy to nexus'){
+                stage('Deploy 2 nexus'){
             tools{
                 maven 'Maven 3.6.1'
             }
